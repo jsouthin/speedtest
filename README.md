@@ -2,6 +2,7 @@
 
 ## Summary
 * Simple script to automate the capturing of internet upload and download speeds, and the vizualization in a chart
+![alt text](https://github.com/jsouthin/speedtest/blob/main/speedtest.png?raw=true)
 
 ## Requirements
 * Linux-like environment with crontab
