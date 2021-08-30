@@ -34,12 +34,12 @@
   * It's really just pandas and matplotlib that you will need
 * Copy repo to local env in your preferred method (git clone is recommended)
   * alternatively, manually create the following files in your preferred location (these are the core 2 files you'll need)
-    * speedtest.sh
-    * speedtest.py
+    * `speedtest.sh`
+    * `speedtest.py`
 * Create a new entry in crontab
   * From command line:
-    * crontab -e
-  * this will open crontab in your preferred editor, I use vim)
+    * `crontab -e`
+  * this will open crontab in your preferred editor (I use vim)
   * add the following entry:
 `*/5 * * * * /home/pi/Projects/speedtest/speedtest.sh > /dev/null 2>&1`
   * The `*/5` sets up a schedule for every 5 mins - this can be modifed to whatever you want
